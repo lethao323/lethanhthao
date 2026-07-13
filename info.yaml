@@ -1,7 +1,6 @@
-
 yaml_version: 1
 project:
-  author: "LeThanhThao"
+  author: "Thao"
   title: "4-to-1 MUX Hierarchical Design"
   description: "Xây dựng MUX 4-1 từ các khối MUX 2-1"
   language: "Verilog"
@@ -12,7 +11,6 @@ project:
     - project.v
 
 pinout:
-  # Các chân I/O tương ứng với vị trí trong mảng 8-bit
   ui[0]: "I0"
   ui[1]: "I1"
   ui[2]: "I2"
@@ -21,7 +19,6 @@ pinout:
   ui[5]: "S1"
   ui[6]: "x"
   ui[7]: "x"
-  
   uo[0]: "Y"
   uo[1]: "x"
   uo[2]: "x"
@@ -30,7 +27,6 @@ pinout:
   uo[5]: "x"
   uo[6]: "x"
   uo[7]: "x"
-  
   uio[0]: "x"
   uio[1]: "x"
   uio[2]: "x"
