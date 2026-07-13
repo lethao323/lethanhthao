@@ -10,7 +10,7 @@ module mux2to1 (
     assign y = sel ? i1 : i0;
 endmodule
 
-// Top Module (Giữ nguyên tên này để khớp với info.yaml)
+// Top Module 
 module tt_um_thao_4to1_mux (
     input  wire [7:0] ui_in,
     output wire [7:0] uo_out,
