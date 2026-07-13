@@ -1,20 +1,9 @@
-<!---
+# MUX 4-to-1 Hierarchical Design
+Dự án thực hiện MUX 4-1 bằng cách phân cấp sử dụng 3 khối MUX 2-1.
 
-This file is used to generate your project datasheet. Please fill in the information below and delete any unused
-sections.
+## Pin Mapping
+- **Input:** ui_in[0]:I0, [1]:I1, [2]:I2, [3]:I3, [4]:S0, [5]:S1
+- **Output:** uo_out[0]:Y
 
-You can also include images in this folder and reference them in the markdown. Each image must be less than
-512 kb in size, and the combined size of all images must be less than 1 MB.
--->
-
-## How it works
-
-Explain how your project works
-
-## How to test
-
-Explain how to use your project
-
-## External hardware
-
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+## Simulation
+Chạy `make -B` trong thư mục `test/`.
