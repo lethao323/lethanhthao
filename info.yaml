@@ -1,10 +1,10 @@
-yaml_version: 1
+yaml_version: 6
 project:
   author: "Thao"
   title: "4-to-1 MUX Hierarchical Design"
   description: "Xây dựng MUX 4-1 từ các khối MUX 2-1"
   language: "Verilog"
-  clock_period: 0
+  clock_hz: 0
   tiles: "1x1"
   top_module: "tt_um_thao_4to1_mux"
   source_files:
